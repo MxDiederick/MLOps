@@ -1,0 +1,25 @@
+Question 1:
+	1. ssh scur2371@snellius.surf.nl -> [scur2371@int4 ~]$ (see screenshot)
+	2. I had no issues.
+	3. My version of ssh:
+
+	   PS C:\Users\diede> ssh -v
+           usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-Q query_option]
+           [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+	
+	   I have prior experience with SSH because of WebTech previous year.
+	   I did not take preemptive steps, because I assumed it would work.
+
+Question 2:
+	1. I have loaded the module stack (see screenshots)
+	2. I have created a modules.sh (as described in the lecture nodes) with "nano modules.sh"
+	3.
+	4.
+	5. (my_venv) [scur2371@int4 ~]$ pip install torch
+	6.
+
