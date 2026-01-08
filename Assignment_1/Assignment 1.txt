@@ -1,0 +1,28 @@
+Question 1:
+	1. ssh scur2371@snellius.surf.nl -> [scur2371@int4 ~]$ (see screenshot)
+	2. I had no issues.
+	3. My version of ssh:
+
+	   PS C:\Users\diede> ssh -v
+           usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-Q query_option]
+           [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+	
+	   I have prior experience with SSH because of WebTech previous year.
+	   I did not take preemptive steps, because I assumed it would work.
+
+Question 2:
+	1. See my screenshots for each task I uploaded a screenshot. Path to venv: /gpfs/home5/scur2371/venv.
+	2. It took approximately half a minute to install pytorch and it begin installing.
+	   The size of the venv folder is 6.7G
+	3. When I imported matplotlib, it didn't recognise te package, so I pip installed it after module loading in the venv.
+    4. (venv) [scur2371@int4 ~]$ python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA available: {torch.cuda.is_available()}')"
+	   PyTorch: 2.9.1+cu128
+	   CUDA available: False
+
+	   It says that PyTorch is installed and that CUDA in not available. This makes sense because I did install PyTorch and did not request GPU usage.
+
