@@ -26,3 +26,11 @@ Question 2:
 
 	   It says that PyTorch is installed and that CUDA in not available. This makes sense because I did install PyTorch and did not request GPU usage.
 
+Question 3:
+	1. https://github.com/MxDiederick/MLOps
+	2. I Used VSC to commit, pull and push which works flawlessly. Adding to that, I use github quite frequent so I'm familiar working with it.
+	   (I did not bump into problems)
+	3. You can acces my .gitignore file by copy-pasting the github link I gave.
+		- Important things to include are all the files you want to not be seen by the public
+		- No, others shouldn't be able to acces snellius.
+	4. 
