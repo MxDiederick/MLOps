@@ -20,7 +20,7 @@ This project is part of my AI course which requires me to know how to build mach
 ### Requires
 - working computer
 
-### Installeren
+### Install guide
 
 ```bash
 git clone https://github.com/MxDiederick/MLOps.git
