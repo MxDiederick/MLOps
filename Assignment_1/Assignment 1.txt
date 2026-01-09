@@ -50,4 +50,12 @@ Question 3:
 	   (The last initial commit was a test)
 
 Question 4
-	1. 
+	1. [scur2371@int6 Assignment_1]$ sbatch q4.job
+	   sbatch: Single-node jobs run on a shared node by default. Add --exclusive if you want to use a node exclusively.
+	   sbatch: A full node consists of 128 CPU cores, 229376 MiB of memory and 0 GPUs and can be shared by up to 64 jobs.
+	   sbatch: By default shared jobs get 1792 MiB of memory per CPU core, unless explicitly overridden with --mem-per-cpu, --mem-per-gpu or --mem.
+	   sbatch: You will be charged for 16 CPUs, based on the number of CPUs and the amount memory that you've requested.
+	   Submitted batch job 18211544
+
+	   [scur2371@int6 Assignment_1]$ squeue -u $USER JOBID PARTITION NAME USER ST TIME NODES NODELIST(REASON)
+	2. 
