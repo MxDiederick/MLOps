@@ -19,13 +19,13 @@ echo "Workdir: $(pwd)"
 echo "Date: $(date)"
 echo
 
-# Load modules (voorbeeld uit de syllabus)
+# Load modules 
 module load 2025
 module load Python/3.13.1-GCCcore-14.2.0
 module load matplotlib/3.10.3-gfbf-2025a
 
-# Activeer je venv (pas pad aan!)
-source ~/my_venv/bin/activate
+# Activate venv
+source ~/venv/bin/activate
 
 echo "=== Python check ==="
 python -c "import sys; print(sys.version)"
