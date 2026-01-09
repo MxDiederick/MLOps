@@ -1,0 +1,10 @@
+=== Job info ===
+JobID: 18211544
+Node(s): tcn352
+Workdir: /gpfs/home5/scur2371/assignment_1/Assignment_1
+Date: Fri Jan  9 15:13:17 CET 2026
+
+=== Python check ===
+3.13.1 (main, Jul 23 2025, 15:51:17) [GCC 14.2.0]
+PyTorch: 2.9.1+cu128
+CUDA available: False
