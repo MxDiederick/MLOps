@@ -6,7 +6,7 @@ This is a small repository voor my MLOps assignments
 
 ### Including:
 
--Assignment 1
+- Assignment 1
 ---
 
 ## Background
