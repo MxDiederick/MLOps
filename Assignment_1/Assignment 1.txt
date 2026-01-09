@@ -33,4 +33,21 @@ Question 3:
 	3. You can acces my .gitignore file by copy-pasting the github link I gave.
 		- Important things to include are all the files you want to not be seen by the public
 		- No, others shouldn't be able to acces snellius.
-	4. 
+	4. PS C:\Users\Diederick\assignment_1> git log --oneline
+	   47de62e (HEAD -> master, origin/main, origin/HEAD) Question 3
+	   3c48ada Fix formatting for Assignment 1 in README
+	   6393cfd Fix installation section header in README
+	   35c6ad5 Enhance README with project details and installation
+	   8f86167 assignment 1
+	   e8ddbb8 Delete Question2d.png
+	   7ef7017 Delete Question2c.png
+	   2463522 Delete Question2b.png
+	   1a00454 Delete Question2a.png
+	   b307539 Delete Question1.png
+	   8687dca Delete Assignment 1.txt
+	   dbf041c Add files via upload
+	   1fafa94 Initial commit
+	   (The last initial commit was a test)
+
+Question 4
+	1. 
