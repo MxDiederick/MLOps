@@ -50,12 +50,26 @@ Question 3:
 	   (The last initial commit was a test)
 
 Question 4
-	1. [scur2371@int6 Assignment_1]$ sbatch q4.job
+	1. See script (q4.job) in GitHub
+
+	   [scur2371@int6 Assignment_1]$ sbatch q4.job
 	   sbatch: Single-node jobs run on a shared node by default. Add --exclusive if you want to use a node exclusively.
 	   sbatch: A full node consists of 128 CPU cores, 229376 MiB of memory and 0 GPUs and can be shared by up to 64 jobs.
 	   sbatch: By default shared jobs get 1792 MiB of memory per CPU core, unless explicitly overridden with --mem-per-cpu, --mem-per-gpu or --mem.
 	   sbatch: You will be charged for 16 CPUs, based on the number of CPUs and the amount memory that you've requested.
 	   Submitted batch job 18211544
 
-	   [scur2371@int6 Assignment_1]$ squeue -u $USER JOBID PARTITION NAME USER ST TIME NODES NODELIST(REASON)
+	   [scur2371@int6 Assignment_1]$ squeue -u $USER 
+	   JOBID PARTITION NAME USER ST TIME NODES NODELIST(REASON)
+	2. Job ID: 18211544, see screenshot.
+	3. I encountered no problem.
+	4. See answer 1.
+	5. Python scripts run directly on the login node and is quickly. A batch job on the otherhand is scheduled in.
+	6. So that we have enough computationpower for our AI training. Otherwise this would take too long.
+
+Question 5
+	1. 
+	- Because Snellius stores these files distributed over multiple SSDs to get higher read and write speeds. However if there are a lot of files that need to be opened, this will be a load on the supercomputer because it now has to open 100k images on several differen SSDs which is heavy on it.
+	- Use the RAM to temporarily store these images because this completely avoids the use of SSD. Or combine the smaller files into fewer large files, resulting in less files to be opened.
+	- By use of dataset versioning tools.
 	2. 
